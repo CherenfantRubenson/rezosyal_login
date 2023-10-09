@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="stylesheet" href="../Rezo sosyal/bootstrap/css/bootstrap.min.css"> -->
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <title>Document</title>
+  <style>
+    *,
+    ::before,
+    ::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+
+      height: 100vh;
+
+    }
+
+    .navbar {
+
+      background-color: #D838F2;
+
+    }
+
+    .navbar-nav>li {
+
+      margin-right: 20px;
+      margin-left: 300px;
+    }
+
+    .navbar img {
+      width: 50px;
+      margin-left: 20px;
+    }
+
+    aside {
+
+      width: 360px;
+
+      height: 1088px;
+      background-color: #ccc;
+      float: right;
+      margin-right: 10px;
+    }
+
+    .aside2 {
+
+      float: left;
+      margin-left: 25px;
+      width: 200px;
+    }
+
+    .aside1 {
+      text-align: center;
+    }
+
+    .square {
+
+      background-color: #ccc;
+      width: 220px;
+      height: 85px;
+      justify-content: center;
+      text-align: center;
+      padding-top: 20px;
+    }
+
+    .manipul {
+      padding-left: 10px;
+
+    }
+
+    .carre2 {
+      width: 20px;
+      height: auto;
+    }
+
+    .carre3 {
+      width: 20px;
+      height: auto;
+    }
+
+    .carre4 {
+
+      width: 210px;
+      height: auto;
+      float: left;
+      padding-right: 10px;
+      margin-top: 10px;
+    }
+
+    .carre4_aside {
+
+      width: 380px;
+      height: auto;
+      float: left;
+    }
+
+    .carre5 {
+
+      float: left;
+      margin-right: auto;
+      height: auto;
+
+    }
+
+    .carre5 img {
+      align-items: center;
+
+      width: 200px;
+    }
+
+    hr {
+
+      border: solid 2px;
+      border-color: #D838F2;
+    }
+
+    footer {
+
+      padding-top: 20px;
+      padding-bottom: 45px;
+      background-color: #D838F2;
+      text-align: center;
+      margin: 0;
+     
+    }
+
+    .square33 {
+
+      width: 75px;
+      height: 75px;
+      border-radius: 50%;
+      background-color: #D838F2;
+    }
+
+    textarea {
+
+      background-color: #ccc;
+
+    }
+
+    .btn {
+
+      background-color: #D838F2;
+    }
+
+    .navbar {
+      margin-top: 0 !important;
+    }
+
+    .sectionm {
+
+
+      padding-top: 125px;
+    }
+  </style>
+
+</head>
+
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-(#D838F2)">
+  <a class="navbar-brand" href="index.html"> <img src="logo.jpg" alt="" width="50px" height="50px"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <form class="form-inline mt-2 mt-md-0 d-flex  ">
+          <input class="form-control mr-sm-2 border rounded-0" type="text" placeholder="chache yon moun"
+            aria-label="Search">
+
+        </form>
+      </li>
+
+      <li class="nav-item">
+        <div class="dropdown ">
+          <a class="btn btn-secondary dropdown-toggle border-0" href="#" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="40" fill="currentColor"
+              class="bi bi-person-circle" viewBox="0 0 16 16">
+              <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+              <path fill-rule="evenodd"
+                d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+            </svg>
+          </a>
+
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Chanje foto</a></li>
+            <li><a class="dropdown-item" href="#">Fanmi mwen</a></li>
+            <li><a class="dropdown-item" href="#"> Paj mwen yo</a></li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+
+  </div>
+</nav>
+
+
+<section class="sectionm">
+
+  <aside class="aside1">
+    <h3 style="color: #D838F2;"> Istwa lafanmi</h3>
+
+
+
+    <img src="famille.webp" class="  image-fluid " alt="..." style="width: 170px;">
+    <img src="famille.webp" class="rounded  image-fluid " alt="..." style="width: 170px;">
+
+    <img src="famille.webp" class="rounded  image-fluid " alt="..." style="width: 170px;">
+    <img src="famille.webp" class="rounded  image-fluid " alt="..." style="width: 170px;">
+
+
+    </div>
+
+
+
+    </div>
+
+
+    <div class=" carre4_aside  p-3 text-center">
+
+      <h4>
+
+
+        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="30" fill="currentColor" class="bi bi-person-circle"
+          viewBox="0 0 16 16" style=" padding-right: 1">
+          <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+          <path fill-rule="evenodd"
+            d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+        </svg>
+        First name Last name
+      </h4>
+      <p>
+        kile nou fe foto sa yo
+      </p>
+
+    </div>
+
+    <div class=" carre4_aside  p-3 text-center">
+
+      <h4>
+
+
+        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="30" fill="currentColor" class="bi bi-person-circle"
+          viewBox="0 0 16 16" style=" padding-right: 1">
+          <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+          <path fill-rule="evenodd"
+            d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+        </svg>
+        First name Last name
+      </h4>
+      <p>
+        kile nou fe foto sa yo
+      </p>
+
+    </div>
+
+    <div class=" carre4_aside  p-3 text-center">
+
+      <h4>
+
+
+        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="30" fill="currentColor" class="bi bi-person-circle"
+          viewBox="0 0 16 16" style=" padding-right: 1">
+          <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+          <path fill-rule="evenodd"
+            d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+        </svg>
+        First name Last name
+      </h4>
+      <p>
+        kile nou fe foto sa yo
+      </p>
+      <div>
+        <form class="form-inline" action="/action_page.php">
+          <div class="form-group">
+
+          </div>
+          <div class="form-group -sm">
+            <input type="password" class="form-control" id="pwd" placeholder="Komantè">
+          </div>
+
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+
+
+      </div>
+    </div>
+
+
+    </div>
+
+  </aside>
+
+  <aside class="aside2 ">
+
+
+    <div class="d-flex flex-column">
+      <div class="p-2 mb-2">
+        <h5> Meni 1</h5>
+      </div>
+      <div class="p-2 mb-2">
+        <h5> Meni 2</h5>
+      </div>
+      <div class="p-2 mb-2">
+        <h5> Meni 3</h5>
+      </div>
+      <div class="p-2 mb-2">
+        <h5> Meni 4</h5>
+      </div>
+      <hr>
+      <div class="p-2 mb-2">
+        <h5> Meni 1</h5>
+      </div>
+      <div class="p-2 mb-2">
+        <h5> Meni 2</h5>
+      </div>
+      <div class="p-2 mb-2">
+        <h5> Meni 2</h5>
+      </div>
+      <div class="p-2 mb-2">
+        <h5> Meni 4</h5>
+      </div>
+
+    </div>
+
+
+  </aside>
+
+  <div class="row ">
+
+    <div class="col md-4 col-sm-6">
+      <div class="card mb-4 shadow-sm">
+        <textarea name="" id="" cols="30" rows="3 " class="text-center justify-content-center align-items center p-3"
+          style="background-color: #f5f3f6;"> Pataje ak fanmi w</textarea>
+
+      </div>
+      <div class="btn-group">
+        <button type="button" class="btn border rounded-0 ">
+
+          <svg xmlns="http://www.w3.org/2000/svg" width="50" height="20" fill="currentColor" class="bi bi-camera"
+            viewBox="0 0 16 16">
+            <path
+              d="M15 12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h1.172a3 3 0 0 0 2.12-.879l.83-.828A1 1 0 0 1 6.827 3h2.344a1 1 0 0 1 .707.293l.828.828A3 3 0 0 0 12.828 5H14a1 1 0 0 1 1 1v6zM2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2z" />
+            <path
+              d="M8 11a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5zm0 1a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7zM3 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z" />
+          </svg>
+        </button>
+
+        <!-- Button trigger modal -->
+        <button type="button" class="btn  btn-lg ml-4 border rounded-0 text-white" data-bs-toggle="modal"
+          data-bs-target="#staticBackdrop">
+          POSTE
+        </button>
+
+
+
+      </div>
+
+
+
+    </div>
+
+    <div class="col mb-5 col-sm-6">
+      <div class="card mb-4  border-0 bg-(#f5f3f6)">
+        <h2 class="text-success"> Valerio Canez</h2>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing eli</p>
+
+
+      </div>
+
+    </div>
+
+    <div class="row ">
+
+      <div class="col md-5 col-sm-6 border-0">
+        <div class="card mb-4 border-0 ">
+
+          <div class="col-6">
+
+            <div class="square carre4  border-0">
+
+              <h4>
+
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="30" fill="currentColor"
+                  class="bi bi-person-circle" viewBox="0 0 16 16" style=" padding-right: 1">
+                  <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                  <path fill-rule="evenodd"
+                    d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                </svg>
+                First name Last name
+              </h4>
+              <h4>
+                Relative
+              </h4>
+              <p> Lorem ipsum dolor sit amet consectetur adipisicing eli Lorem ipsum dolor sit, amet consectetur
+                adipisicing
+                elit. Dicta tempora debitis magni optio dolor? Sapiente ea magni pariatur expedita dolore inventore
+                maxime
+                aperiam adipisci quidem minus, quos labore eos voluptatibus!</p>
+            </div>
+
+          </div>
+
+
+        </div>
+
+
+      </div>
+
+      <div class="col md-4 col-sm-6 border-0 ">
+        <div class=" border-0">
+          <h2 class="text-success"> PUB</h2>
+          <p> Lorem ipsum dolor sit amet consectetur adipisicing eli</p>
+
+
+        </div>
+
+        <div class="d-flex flex-column">
+
+
+          <h2> CODE9 CLASS</h2>
+
+          <p> Lorem ipsum dolor sit amet consectetur adipisicing eli</p>
+
+        </div>
+
+        <div class="d-flex flex-column">
+
+
+          <h2 class="text-sucess"> PUB 4</h2>
+
+          <p> Lorem ipsum dolor sit amet consectetur adipisicing eli</p>
+
+
+        </div>
+
+
+      </div>
+
+
+      <div class="row ">
+
+        <div class="card p-3 border rounded-0" style="width: 14rem; margin-left: 30px;">
+          <div class="d-flex">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="30" fill="currentColor"
+              class="bi bi-person-circle" viewBox="0 0 16 16" style=" padding-right: 1">
+              <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+              <path fill-rule="evenodd"
+                d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+            </svg>
+
+            <h6> First name last name</h6>
+          </div>
+
+          <img class="card-img-top border-0" src="famille.webp" alt="Card image cap">
+          <div class="card-body bg-(#f5f3f6) border-0">
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio obcaecati voluptatem
+              commodi ullam cum aspernatur laboriosam autem aliquam in maiores.</p>
+
+
+          </div>
+        </div>
+
+      </div>
+
+
+</section>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+  aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Eskew vle Pataje kontni sa pou 24 èdtan?
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Anile</button>
+        <button type="button" class="btn btn-primary">Wi</button>
+      </div>
+    </div>
+  </div>
+</div>
+<section>
+
+  <footer>
+
+    &copy tout droit reservé
+  </footer>
+</section>
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7eW3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+<script src="https://code.jquery.com/jquery-3.6.1.slim.min.js"
+  integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA=" crossorigin="anonymous"></script>
+</body>
+
+</html>
